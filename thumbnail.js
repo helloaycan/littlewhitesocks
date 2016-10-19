@@ -23,7 +23,7 @@ please leave this message and give credit where credit is due!
         });
       });
       $(document).ready(function() {
-        var w = 780;
+        var w = 770;
         var h = 450;
         $('.firsthomepage-thumbnail').find('img').each(function(n, image){
           var image = $(image);
