@@ -23,11 +23,10 @@ please leave this message and give credit where credit is due!
         });
       });
       $(document).ready(function() {
-        var w = 770;
-        var h = auto;
+        var dimension = 770;
         $('.firsthomepage-thumbnail').find('img').each(function(n, image){
           var image = $(image);
-          image.attr({src : image.attr('src').replace(/s\B\d{2,4}/,'s' + w + '-h' + h +'-c')});
+          image.attr({src : image.attr('src').replace(/s\B\d{2,4}/,'s' + dimension)});
           image.attr('width',w);
           image.attr('height',h);
         });
