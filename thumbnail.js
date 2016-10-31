@@ -10,7 +10,7 @@ please leave this message and give credit where credit is due!
 $(document).ready(function(){
     // the dimension of your content within the columns
     var areawidth = $('div.firsthomepage-thumbnail.nopin').width();
-    $('.post-body').find('img').each(function(n, image){
+    $('.post-outer').find('img').each(function(n, image){
         var image = $(image);
         var height = image.attr('height');
         var width = image.attr('width');
@@ -31,7 +31,7 @@ for the BlogXpertise website http://www.blogxpertise.com
 any updates to this script will be posted to BlogXpertise
 please leave this message and give credit where credit is due!
 **/
-/** $(document).ready(function() {
+ $(document).ready(function() {
         var dimension = 280;
         $('.labelthumbnail').find('img').each(function(n, image){
           var image = $(image);
@@ -49,7 +49,7 @@ please leave this message and give credit where credit is due!
           image.attr('height',dimension);
         });
       });
-      $(document).ready(function() {
+    /**  $(document).ready(function() {
         var dimension = 770;
         $('.firsthomepage-thumbnail').find('img').each(function(n, image){
           var image = $(image);
