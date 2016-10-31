@@ -5,33 +5,6 @@ for the BlogXpertise website http://www.blogxpertise.com
 any updates to this script will be posted to BlogXpertise
 please leave this message and give credit where credit is due!
 **/
-    
-    
-    
-$(document).ready(function(){
-    // the dimension of your content within the columns
-    var areawidth = $('div.firsthomepage-thumbnail.nopin').width();
-    $('.post-outer').find('img').each(function(n, image){
-        var image = $(image);
-        var height = image.attr('height');
-        var width = image.attr('width');
-        var newHeight = (height/width * areawidth).toFixed(0);
-        image.attr('width',areawidth).attr('height',newHeight);
-        var greater = Math.max(areawidth,newHeight);
-        image.attr({src : image.attr('src').replace(/s\B\d{3,4}/,'s' + greater)});
-    });
-});
-
-
-
-
-
-/**
-this script was written by Confluent Forms LLC http://www.confluentforms.com
-for the BlogXpertise website http://www.blogxpertise.com
-any updates to this script will be posted to BlogXpertise
-please leave this message and give credit where credit is due!
-**/
  $(document).ready(function() {
         var dimension = 280;
         $('.labelthumbnail').find('img').each(function(n, image){
@@ -50,7 +23,7 @@ please leave this message and give credit where credit is due!
           image.attr('height',dimension);
         });
       });
-    /**  $(document).ready(function() {
+      $(document).ready(function() {
         var dimension = 770;
         $('.firsthomepage-thumbnail').find('img').each(function(n, image){
           var image = $(image);
@@ -59,4 +32,4 @@ please leave this message and give credit where credit is due!
           image.attr('height',h);
         });
       });
-      **/
+      
