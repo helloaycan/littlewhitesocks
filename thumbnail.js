@@ -31,7 +31,7 @@ for the BlogXpertise website http://www.blogxpertise.com
 any updates to this script will be posted to BlogXpertise
 please leave this message and give credit where credit is due!
 **/
-   <!--   $(document).ready(function() {
+/** $(document).ready(function() {
         var dimension = 280;
         $('.labelthumbnail').find('img').each(function(n, image){
           var image = $(image);
@@ -58,4 +58,4 @@ please leave this message and give credit where credit is due!
           image.attr('height',h);
         });
       });
--->
+      **/
