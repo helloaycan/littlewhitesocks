@@ -9,7 +9,7 @@ please leave this message and give credit where credit is due!
 **/
 $(document).ready(function(){
     // the dimension of your content within the columns
-    var areawidth = $('#Blog1').width();
+    var areawidth = $('div.firsthomepage-thumbnail.nopin').width();
     $('.post-body').find('img').each(function(n, image){
         var image = $(image);
         var height = image.attr('height');
