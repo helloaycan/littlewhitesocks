@@ -3,47 +3,47 @@
     "short_name": "",
     "icons": [
         {
-            "src": "/android-chrome-36x36.png?v=lkdpXXaM58",
+            "src": "https://1.bp.blogspot.com/-kCVAwQ8cuDY/Wo76Kl_3pUI/AAAAAAAANFw/MnT8w0P7nuM-GCsem1Qw187IvQZ4IOWHwCKgBGAs/s1600/android-chrome-36x36.png?v=lkdpXXaM58",
             "sizes": "36x36",
             "type": "image/png"
         },
         {
-            "src": "/android-chrome-48x48.png?v=lkdpXXaM58",
+            "src": "https://4.bp.blogspot.com/-0lu2PiWELhc/Wo76Ktwn8jI/AAAAAAAANFw/rG7n1opVZCgd4XUpOlZ9NQ_Igy5_3auDwCKgBGAs/s1600/android-chrome-48x48.png?v=lkdpXXaM58",
             "sizes": "48x48",
             "type": "image/png"
         },
         {
-            "src": "/android-chrome-72x72.png?v=lkdpXXaM58",
+            "src": "https://1.bp.blogspot.com/-vLPme4mRGUA/Wo76KjzSDRI/AAAAAAAANFw/ZN8gpTXqJWkE2lRGeSxmMaZhKSFm_g0ugCKgBGAs/s1600/android-chrome-72x72.png?v=lkdpXXaM58",
             "sizes": "72x72",
             "type": "image/png"
         },
         {
-            "src": "/android-chrome-96x96.png?v=lkdpXXaM58",
+            "src": "https://1.bp.blogspot.com/-vehV8BkwWP0/Wo76Ks2ZHzI/AAAAAAAANFw/MJPJXBA4n1YadcSmS2TEw6r3c-eg62sLACKgBGAs/s1600/android-chrome-96x96.png?v=lkdpXXaM58",
             "sizes": "96x96",
             "type": "image/png"
         },
         {
-            "src": "/android-chrome-144x144.png?v=lkdpXXaM58",
+            "src": "https://1.bp.blogspot.com/-16qyAWLgbMo/Wo76KpikRYI/AAAAAAAANFw/ut9JDnJ4fEMM48Oa6LujW9WtnRqa_b3rACKgBGAs/s1600/android-chrome-144x144.png?v=lkdpXXaM58",
             "sizes": "144x144",
             "type": "image/png"
         },
         {
-            "src": "/android-chrome-192x192.png?v=lkdpXXaM58",
+            "src": "https://1.bp.blogspot.com/-0n5W1jmbd00/Wo76Krm64-I/AAAAAAAANFw/t6BkROgiW0ISgNoMMummxNKiT3d9EOYAACKgBGAs/s1600/android-chrome-192x192.png?v=lkdpXXaM58",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/android-chrome-256x256.png?v=lkdpXXaM58",
+            "src": "https://3.bp.blogspot.com/-EL5pm8TdsNA/Wo76KgGrXcI/AAAAAAAANFw/P2dGNWiG22wWET9enJ9EquJ_RVCQoxxcACKgBGAs/s1600/android-chrome-256x256.png?v=lkdpXXaM58",
             "sizes": "256x256",
             "type": "image/png"
         },
         {
-            "src": "/android-chrome-384x384.png?v=lkdpXXaM58",
+            "src": "https://2.bp.blogspot.com/-w9cvYnPPsIU/Wo76KkGiccI/AAAAAAAANFw/m7QQon4SbXQd_MlT0wJ6_OGBtbgn79YxQCKgBGAs/s1600/android-chrome-384x384.png?v=lkdpXXaM58",
             "sizes": "384x384",
             "type": "image/png"
         },
         {
-            "src": "/android-chrome-512x512.png?v=lkdpXXaM58",
+            "src": "https://3.bp.blogspot.com/-GgUYAVWTRag/Wo76Kh7VbaI/AAAAAAAANFw/ro-w_trfuL0bmf93Nki-zU-Omq3D8yuYACKgBGAs/s1600/android-chrome-512x512.png?v=lkdpXXaM58",
             "sizes": "512x512",
             "type": "image/png"
         }
