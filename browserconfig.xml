@@ -2,10 +2,10 @@
 <browserconfig>
     <msapplication>
         <tile>
-            <square70x70logo src="/mstile-70x70.png?v=lkdpXXaM58"/>
-            <square150x150logo src="/mstile-150x150.png?v=lkdpXXaM58"/>
-            <square310x310logo src="/mstile-310x310.png?v=lkdpXXaM58"/>
-            <wide310x150logo src="/mstile-310x150.png?v=lkdpXXaM58"/>
+            <square70x70logo src="https://3.bp.blogspot.com/-YXoqcWQmqM4/Wo79VH_qhBI/AAAAAAAANGU/v2W-8u3IY34D9tP-lmIlTW-12bJkd09ZACKgBGAs/s1600/mstile-70x70.png?v=lkdpXXaM58"/>
+            <square150x150logo src="https://3.bp.blogspot.com/-ntnLYYJtODY/Wo79iqe1LJI/AAAAAAAANGc/OkRLERJCWMY-3Bl8QrYl9sa5MgvSYVpHgCKgBGAs/s1600/mstile-150x150.png?v=lkdpXXaM58"/>
+            <square310x310logo src="https://1.bp.blogspot.com/-kYsqyfi9oow/Wo79ijQNNPI/AAAAAAAANGc/9PZafweem6QMgTzHyJg5PrS8K0RUHtIQACKgBGAs/s1600/mstile-310x310.png?v=lkdpXXaM58"/>
+            <wide310x150logo src="https://3.bp.blogspot.com/-sZGalnPIKPQ/Wo79ihx2NPI/AAAAAAAANGc/LWbkkXKeDQorCkZPxFe2vJTa5gbdnUJxgCKgBGAs/s1600/mstile-310x150.png?v=lkdpXXaM58"/>
             <TileColor>#fc9ec3</TileColor>
         </tile>
     </msapplication>
