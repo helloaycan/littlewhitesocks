@@ -1,0 +1,54 @@
+{
+    "name": "Little White Socks",
+    "short_name": "Little White Socks",
+    "icons": [
+        {
+            "src": "https://3.bp.blogspot.com/-wC1soZ24Saw/WpQH0eIUUQI/AAAAAAAANJM/Eb3bh0xe62oJRheTyVu6ijajHUPJflDmQCKgBGAs/s1600/android-chrome-36x36.png?v=LbWPkNN77O",
+            "sizes": "36x36",
+            "type": "image/png"
+        },
+        {
+            "src": "https://4.bp.blogspot.com/-mUiFoTWJM6k/WpQH0cFReFI/AAAAAAAANJM/qtcmnZV_dosKT2dvYhul6kerysmXJiyxwCKgBGAs/s1600/android-chrome-48x48.png?v=LbWPkNN77O",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "https://4.bp.blogspot.com/-klTn_ZzpbNw/WpQH0VeETUI/AAAAAAAANJM/z0MlnGBRowE2XjMPCXoakjdSMqqT7B66gCKgBGAs/s1600/android-chrome-72x72.png?v=LbWPkNN77O",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "https://1.bp.blogspot.com/-AIHiFwDhOyE/WpQH0X1u8WI/AAAAAAAANJM/c6gyRX5334cURO6JFMFQ0Q0bQa56db3JgCKgBGAs/s1600/android-chrome-96x96.png?v=LbWPkNN77O",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "https://3.bp.blogspot.com/-hbNfCFp9uD0/WpQH0fLxwPI/AAAAAAAANJM/NKlC8isGzqYCytpR_u5998-9nG_4VjMgACKgBGAs/s1600/android-chrome-144x144.png?v=LbWPkNN77O",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "https://4.bp.blogspot.com/-ADKOd_glakw/WpQH0VdG1gI/AAAAAAAANJM/bBMG12pDLpQQIng6UURR6f7G0QmEeMUGgCKgBGAs/s1600/android-chrome-192x192.png?v=LbWPkNN77O",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "https://1.bp.blogspot.com/-nEsBGZiC_Jg/WpQH0ShquzI/AAAAAAAANJM/sadtxhOP6v4gOkhY9tn2w-3-imTJwREtQCKgBGAs/s1600/android-chrome-256x256.png?v=LbWPkNN77O",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "https://3.bp.blogspot.com/--F3n3l3Usfg/WpQH0SobRoI/AAAAAAAANJM/na0fduLameEE58cqxRq_nR2qj5lam2ImwCKgBGAs/s1600/android-chrome-384x384.png?v=LbWPkNN77O",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "https://1.bp.blogspot.com/-H-AxFIBeDX8/WpQH0eL1EPI/AAAAAAAANJM/htmeS986mU4ayxWCrYkmHBIk3LL-0c32ACKgBGAs/s1600/android-chrome-512x512.png?v=LbWPkNN77O",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}
