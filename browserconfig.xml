@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+    <msapplication>
+        <tile>
+            <square70x70logo src="https://1.bp.blogspot.com/-5dS4GwpsUxA/WpQW2Tsf7zI/AAAAAAAANJ8/Oz3lGD-1dfgrUP0hHgkWJLUbV4hMxu22ACKgBGAs/s1600/mstile-70x70.png?v=LbWPkNN77O"/>
+            <square150x150logo src="https://2.bp.blogspot.com/-gN-U3Uny3vM/WpQW2T_y0GI/AAAAAAAANJ8/6u4_c-OADv0hwN59NrKOX8ISc1HYv65AgCKgBGAs/s1600/mstile-150x150.png?v=LbWPkNN77O"/>
+            <square310x310logo src="https://1.bp.blogspot.com/-HckVgImt-BU/WpQW2SXhAZI/AAAAAAAANJ8/VyL0WHfWMQgskhpvIkcECD3QA8EIqvx8QCKgBGAs/s1600/mstile-310x310.png?v=LbWPkNN77O"/>
+            <wide310x150logo src="https://2.bp.blogspot.com/-vsEZxgoNrWU/WpQW2a03DKI/AAAAAAAANJ8/5lRXRJ2BAYADkrSkEgD95YQri57nNY9JgCKgBGAs/s1600/mstile-310x150.png?v=LbWPkNN77O"/>
+            <TileColor>#fc9ec3</TileColor>
+        </tile>
+    </msapplication>
+</browserconfig>
