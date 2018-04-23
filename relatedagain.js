@@ -7,7 +7,7 @@
           var roundImages = false;
           var relatedTitle = true;
           var labelInTitle = false;
-          var relatedTitleText = "YOU MIGHT ALSO LIKE";
+          var relatedTitleText = "YOUIKE";
           var defaultImage = "";
           var campaignTracking = false;
           var campaignSource = "";
