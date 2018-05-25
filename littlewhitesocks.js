@@ -93,6 +93,8 @@ $(".scroll-top").css("display","block");
 } 
 });
  });
+
+
 //<![CDATA[  
 $(document).ready(function() {
 var userFeed = new Instafeed({
