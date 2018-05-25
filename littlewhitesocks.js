@@ -66,6 +66,7 @@ $(".scroll-top-mobile, .scroll-top").click(function(event) {
  });
 
 
+jQuery(function($) {
 function checkOffset() {
   var a=$(document).scrollTop()+window.innerHeight;
   var b=$('.bottom-navigation').offset().top;
@@ -77,3 +78,4 @@ function checkOffset() {
 }
 $(document).ready(checkOffset);
 $(document).scroll(checkOffset);
+});
