@@ -1,4 +1,4 @@
-//<![CDATA[
+
 jQuery(function($) {
 $('.search-top').click(function() {
   $('.search-box').fadeIn();
@@ -13,6 +13,8 @@ $(document).keyup(function(e) {
 });
 });
 
+
+//<![CDATA[
 $(document).ready(function() {
 var userFeed = new Instafeed({
 get: 'user',
