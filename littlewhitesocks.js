@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(function(){
 $('.search-top').click(function() {
   $('.search-box').fadeIn();
 });
