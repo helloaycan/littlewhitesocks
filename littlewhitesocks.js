@@ -109,7 +109,6 @@ userFeed.run();
 });
 //]]>
 
-
       //<![CDATA[
 $(document).ready(function() {
   $('.tweetable').each(function() {
