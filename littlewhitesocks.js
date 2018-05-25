@@ -65,3 +65,15 @@ $(".scroll-top-mobile, .scroll-top").click(function(event) {
   });
  });
 
+
+function checkOffset() {
+  var a=$(document).scrollTop()+window.innerHeight;
+  var b=$('.bottom-navigation').offset().top;
+  if (a<b) {
+    $('.scroll-top-mobile').css('bottom', '10px');
+  } else {
+    $('.scroll-top-mobile').css('bottom', (10+(a-b))+'px');
+  }
+}
+$(document).ready(checkOffset);
+$(document).scroll(checkOffset);
