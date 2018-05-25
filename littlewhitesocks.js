@@ -79,3 +79,16 @@ function checkOffset() {
 $(document).ready(checkOffset);
 $(document).scroll(checkOffset);
 });
+
+$(document).ready(function () {
+$(window).bind('load resize scroll',function(e){
+if ($(this).scrollTop() > 200 && $(this).width() < 667) { 
+      $('.scroll-top-mobile').fadeIn(500);
+  $(".scroll-top").css("display","none");
+} 
+else {
+$('.scroll-top-mobile').fadeOut(500);
+$(".scroll-top").css("display","block");
+} 
+});
+ });
