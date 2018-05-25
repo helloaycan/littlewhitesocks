@@ -1,18 +1,3 @@
-
-jQuery(function($) {
-$('.search-top').click(function() {
-  $('.search-box').fadeIn();
-});
-$('.close-search').click(function() {
-  $('.search-box').fadeOut();
-});
-$(document).keyup(function(e) {
-  if (e.keyCode === 27) {
-    $('.search-box').fadeOut();
-  }
-});
-});
-
 jQuery(function($) {
     $('a.mobile-categories').click(function(){
       if ($('ul.mobile-labels').css('display') == 'none') {
@@ -42,6 +27,22 @@ jQuery(function($) {
       }
     });
 });
+
+jQuery(function($) {
+$('.search-top').click(function() {
+  $('.search-box').fadeIn();
+});
+$('.close-search').click(function() {
+  $('.search-box').fadeOut();
+});
+$(document).keyup(function(e) {
+  if (e.keyCode === 27) {
+    $('.search-box').fadeOut();
+  }
+});
+});
+
+
 
 $(document).ready(function() {
 $(window).bind('load resize scroll',function(e){
