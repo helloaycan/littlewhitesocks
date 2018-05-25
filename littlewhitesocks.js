@@ -52,6 +52,6 @@ $("ol.archive-container").not($("ol.archive-container", $dropdown)).css("display
 $("a.archive-link").css("color","white");
 $(this).css("color","black");
 return false;
-      });
-   });
+});
+});
 });
