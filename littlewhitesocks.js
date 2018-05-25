@@ -49,6 +49,19 @@ $(document).ready(checkOffset);
 $(document).scroll(checkOffset);
 });
 
+jQuery(function($) {
+    $(".mobile-cross, .overlay").click(function(){
+      if(parseInt($(".side-categories").css('right')) === 0){
+        $(".side-categories").animate({right: '-350px'});
+		$('.overlay').fadeOut(500);
+ $('ul.mobile-labels').slideUp(500);
+      }else{
+        $(".side-categories").animate({right: '0px'});
+		$('.overlay').fadeIn(500);
+      }
+    });
+});
+
 //<![CDATA[
 $(document).ready(function() {
 var userFeed = new Instafeed({
