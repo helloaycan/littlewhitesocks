@@ -108,17 +108,3 @@ template: '<li><a href="{{link}}" target="_blank"> <div><img src="{{image}}" /><
 userFeed.run();
 });
 //]]>
-
-      //<![CDATA[
-$(document).ready(function() {
-  $('.tweetable').each(function() {
-     var sentence = $(this);
-     var permalink = sentence.parents('.post-outer').find('.timestamp-link').attr('href') || $(location).attr('href');
-     var tweetable = sentence.text();
-     var result = encodeURIComponent(tweetable);
-     var link = encodeURIComponent(permalink);
-     
-sentence.wrap('<a class="tweet-link" target="_blank" href="https://twitter.com/intent/tweet?text=' + result + " " + link +'"></a>');
-    });
-});
-        //]]>
