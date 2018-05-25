@@ -110,9 +110,11 @@ userFeed.run();
 //]]>
 
 //<![CDATA[
+$(function() {
 $(document).ready(function() {
 $('.tweetable').each(function() {   
 $(this).wrap('<a class="tweet-link" target="_blank" href="https://twitter.com/intent/tweet?text=' + encodeURIComponent($(this).text()) + " " + encodeURIComponent($(this).parents('.post-outer').find('.timestamp-link').attr('href') || $(location).attr('href')) +'"></a>');
     });
+});
 });
 //]]>
