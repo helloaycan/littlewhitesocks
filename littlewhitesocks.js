@@ -13,6 +13,36 @@ $(document).keyup(function(e) {
 });
 });
 
+jQuery(function($) {
+    $('a.mobile-categories').click(function(){
+      if ($('ul.mobile-labels').css('display') == 'none') {
+        $('ul.mobile-labels').slideDown(500);
+ $('i.fa-chevron-down').addClass("active");
+ 
+      }else{
+        $('ul.mobile-labels').slideUp(500);
+ $('i.fa-chevron-down').removeClass('active');
+      }
+    });
+});
+$('.mobile-cross, .overlay').click(function(){
+  $('a.cross').toggleClass('active');
+  return false;
+});
+
+jQuery(function($) {
+    $(".mobile-cross, .overlay").click(function(){
+      if(parseInt($(".side-categories").css('right')) === 0){
+        $(".side-categories").animate({right: '-350px'});
+		$('.overlay').fadeOut(500);
+ $('ul.mobile-labels').slideUp(500);
+      }else{
+        $(".side-categories").animate({right: '0px'});
+		$('.overlay').fadeIn(500);
+      }
+    });
+});
+
 $(document).ready(function() {
 $(window).bind('load resize scroll',function(e){
 if ($(this).scrollTop() > 200 && $(this).width() < 667) { 
@@ -47,36 +77,6 @@ function checkOffset() {
 }
 $(document).ready(checkOffset);
 $(document).scroll(checkOffset);
-});
-
-jQuery(function($) {
-    $('a.mobile-categories').click(function(){
-      if ($('ul.mobile-labels').css('display') == 'none') {
-        $('ul.mobile-labels').slideDown(500);
- $('i.fa-chevron-down').addClass("active");
- 
-      }else{
-        $('ul.mobile-labels').slideUp(500);
- $('i.fa-chevron-down').removeClass('active');
-      }
-    });
-});
-$('.mobile-cross, .overlay').click(function(){
-  $('a.cross').toggleClass('active');
-  return false;
-});
-
-jQuery(function($) {
-    $(".mobile-cross, .overlay").click(function(){
-      if(parseInt($(".side-categories").css('right')) === 0){
-        $(".side-categories").animate({right: '-350px'});
-		$('.overlay').fadeOut(500);
- $('ul.mobile-labels').slideUp(500);
-      }else{
-        $(".side-categories").animate({right: '0px'});
-		$('.overlay').fadeIn(500);
-      }
-    });
 });
 
 jQuery(function($) {
