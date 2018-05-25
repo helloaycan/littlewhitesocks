@@ -66,7 +66,7 @@ $(".scroll-top-mobile, .scroll-top").click(function(event) {
  });
 
 
-jQuery(function($) {
+$(document).ready(function () {
 function checkOffset() {
   var a=$(document).scrollTop()+window.innerHeight;
   var b=$('.bottom-navigation').offset().top;
