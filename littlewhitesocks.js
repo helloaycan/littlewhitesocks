@@ -26,8 +26,6 @@ if (a&lt;b) {
 }
 $(document).ready(checkOffset);
 $(document).scroll(checkOffset);
-</script>
-<script>
 $(document).ready(function(){
   $("a.mobile-categories").click(function(){
     if ($("ul.mobile-labels").css("display") == "none") {
@@ -66,6 +64,7 @@ if (e.keyCode === 27) {
   $(".search-box").fadeOut();
 }
 });
+//<![CDATA[  
 var userFeed = new Instafeed({
 get: 'user',
 limit: "6",
@@ -76,6 +75,7 @@ accessToken: '30746667.3f33fc7.95ca36e07cbc4ccc86b3d02c4ccf56a6',
 clientId: '3f33fc7c3faf4ee2ba1b0ef93aaf2fbe',
 template: '<li><a href="{{link}}" target="_blank"> <div><img src="{{image}}" /></div></a></li>'
 });
+//]]>
 userFeed.run();
 $(document).ready(function(){
 $(".archive-index ol li").each(function() {
