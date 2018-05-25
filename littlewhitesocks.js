@@ -1,4 +1,4 @@
-$(function(){
+jQuery(function($) {
 $('.search-top').click(function() {
   $('.search-box').fadeIn();
 });
@@ -11,4 +11,3 @@ $(document).keyup(function(e) {
   }
 });
 });
-
