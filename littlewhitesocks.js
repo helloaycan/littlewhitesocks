@@ -41,3 +41,17 @@ jQuery(function($) {
       }
     });
 });
+
+jQuery(function($) {
+$('.archive-index ol li').each(function() {
+var $dropdown = $(this);
+$("a.archive-link", $(this)).click(function(e) {
+e.preventDefault();
+$("ol.archive-container, .archive-select-m").css("display","flex");
+$("ol.archive-container").not($("ol.archive-container", $dropdown)).css("display","none");
+$("a.archive-link").css("color","white");
+$(this).css("color","black");
+return false;
+      });
+   });
+});
