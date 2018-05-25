@@ -107,9 +107,7 @@ template: '<li><a href="{{link}}" target="_blank"> <div><img src="{{image}}" /><
 });
 userFeed.run();
 });
-//]]>
 
-//<![CDATA[
 $(function() {
 $(document).ready(function() {
 $('.tweetable').each(function() {   
