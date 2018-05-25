@@ -12,7 +12,7 @@ $(document).keyup(function(e) {
 });
 });
 
-$(document).ready(function(){
+jQuery(function($) {
     $('a.mobile-categories').click(function(){
       if ($('ul.mobile-labels').css('display') == 'none') {
         $('ul.mobile-labels').slideDown(500);
@@ -29,7 +29,7 @@ $('.mobile-cross, .overlay').click(function(){
   return false;
 });
 
-$(document).ready(function(){
+jQuery(function($) {
     $(".mobile-cross, .overlay").click(function(){
       if(parseInt($(".side-categories").css('right')) === 0){
         $(".side-categories").animate({right: '-350px'});
