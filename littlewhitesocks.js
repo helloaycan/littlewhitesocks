@@ -92,3 +92,19 @@ $(".scroll-top").css("display","block");
 } 
 });
  });
+
+//<![CDATA[   
+$(document).ready(function() {
+var userFeed = new Instafeed({
+get: 'user',
+limit: "6",
+userId: 30746667,
+resolution: 'standard_resolution',
+square: 'true',
+accessToken: '30746667.3f33fc7.95ca36e07cbc4ccc86b3d02c4ccf56a6',
+clientId: '3f33fc7c3faf4ee2ba1b0ef93aaf2fbe',
+template: '<li><a href="{{link}}" target="_blank"> <div><img src="{{image}}" /></div></a></li>'
+});
+userFeed.run();
+});
+//]]>
