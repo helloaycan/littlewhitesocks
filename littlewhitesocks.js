@@ -55,3 +55,12 @@ return false;
 });
 });
 });
+
+jQuery(function($) {
+ $(".scroll-top-mobile, .scroll-top").click(function(event) {
+    $('html, body').animate({
+      scrollTop: 0
+    }, 'slow');
+    event.preventDefault();
+  });
+});
