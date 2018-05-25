@@ -1,3 +1,4 @@
+//<![CDATA[   
 jQuery(function($) {
 $('.search-top').click(function() {
   $('.search-box').fadeIn();
@@ -93,7 +94,6 @@ $(".scroll-top").css("display","block");
 });
  });
 
-//<![CDATA[   
 $(document).ready(function() {
 var userFeed = new Instafeed({
 get: 'user',
